@@ -21,7 +21,7 @@ noBtn.addEventListener("click", () => {
   } 
   else if (noClicks === 5) {
     gif.src = "begging.gif";
-    question.textContent = "Pleaseee po be";
+    question.textContent = "Pleaseee po be :(";
   } 
   else if (noClicks >= 6 && noClicks <= 8) {
     yesScale += 0.3;
@@ -41,7 +41,7 @@ yesBtn.addEventListener("click", () => {
     <h1>YAYYY!! </h1>
     <img src="yay.gif" style="width:220px;">
     <p style="font-size:20px;color:#ff4d6d;">
-      HAPPY VALENTINE’S DAY 🥰🌹
+      HAPPY VALENTINE’S DAY!❤️🌹
     </p>
   `;
 });
