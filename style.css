@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #ffe6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+  width: 300px;          
+}
+
+
+h1 {
+  color: #ff4d6d;
+}
+
+img {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 16px;               
+}
+
+
+
+button {
+  width: 120px;            
+  padding: 12px 0;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+#yesBtn {
+  background-color: #4dff8b;
+  color: white;
+}
+
+#noBtn {
+  background-color: #ff0e0e;
+  
+}
+
